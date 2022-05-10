@@ -13,6 +13,9 @@ class Card:
         while points > 0:
 
   # Draws random card between 1 and 13
+ """ 
+ Random.randint generates a new random value
+ """
             card_number = random.randint(1, 13)
             print(f"The card is: {card_number}")
 
