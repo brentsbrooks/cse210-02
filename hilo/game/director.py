@@ -5,17 +5,18 @@ class Director:
 
   def __init__(self):
 
-    self.is_playing = True
+    
     self.total_score = 300
     self.score = 0
     self.higher_or_lower = ""
 
   def start_game(self):
 
-    while self.is_playing or self.total_score > 0:
+    while self.total_score > 0:
 
       self.show_card()
       self.get_input()
+
 
   def show_card(self):
 
