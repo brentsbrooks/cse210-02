@@ -5,13 +5,13 @@ class Director:
 
 # A person who direct the game.
     
-    def _init_self():
+    def _init_(self):
 #Constructs a new Director.
 
         self.is_playing = True
         self.total_score = 300
 
-    def start_game():
+    def start_game(self):
 #Starts the game by running the main game loop.
 
 
@@ -45,8 +45,8 @@ class Director:
         elif high_or_low == "l":
             card2 = self.new_value
             if card2 <= card1:
-                self.points += self.total_scores
+                self.points += self.total_score
             else:
-                self.point -= self.total_score
-                score = self.point
+                self.points -= self.total_score
+                score = self.points
         print(f"Your score is {score}")
