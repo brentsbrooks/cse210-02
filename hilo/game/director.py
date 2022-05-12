@@ -3,12 +3,16 @@ from game.card import Card
 
 class Director:
 
+# A person who direct the game.
+    
     def _init_self():
+#Constructs a new Director.
 
         self.is_playing = True
         self.total_score = 300
 
     def start_game():
+#Starts the game by running the main game loop.
 
 
         while self.is_playing:
@@ -22,10 +26,14 @@ class Director:
         print(f"The card is : {card1}")
     
     def get_inputs(self):
+# Ask the user if is high or low
+
         high_or_low = input("High or low? [h/l]: ")
         return high_or_low
     
     def do_outputs(self):
+# Display the score.
+
         if high_or_low == "h":
             card2 = self.new_value
             if card2 >= card1:
