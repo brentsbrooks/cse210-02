@@ -45,4 +45,4 @@ Brent Brooks | bro13055@byui.edu
 Emmanuel Odonkor | odo21002@byui.edu
 Gabriela G. Munhoz | gabriela.guterres@gmail.com
 Gordon Majoni | gordonmajoni95@gmail.com
-Tomas Lopez | 
+Tomas Lopez | lop21021@byui.edu
